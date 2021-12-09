@@ -1,4 +1,5 @@
 #include "iostream"
+#include <memory>
 #include "Dud.cpp"
 
 using namespace std;
@@ -200,5 +201,8 @@ int main(int argc, char const *argv[])
     unique_pointer_tutorial();
 
     cout << "" << endl;
+
+    system("pause");
+
     return 0;
 }
