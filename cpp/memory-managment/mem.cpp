@@ -109,7 +109,7 @@ void passingPointerByReferrenceExample(unique_ptr<Dud>& j) {
     j->talk();
     j.reset();
 }
-void passingPointerByReferrenceSaferExample(const unique_ptr<Dud>& j) {
+void passingPointerByReferrenceSaferExample(const unique_ptr<Dud> &j) {
     // this function cannot modify the unique pointer itself, it can
     // however modify the data itself
     j->talk();
